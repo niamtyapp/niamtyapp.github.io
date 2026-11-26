@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Borrar tu cuenta · Niamty</title>
+<meta name="description" content="Niamty: Borrar tu cuenta.">
+<style>
+:root { --bg: #FBF8F3; --fg: #1F1A14; --muted: #6B6258; --line: #E7DFD3; --accent: #A36A00; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #15120E; --fg: #F2ECE4; --muted: #A99F93; --line: #2E2820; --accent: #E0A53C; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem max(16px, env(safe-area-inset-right)) 4rem max(16px, env(safe-area-inset-left)); }
+.logo { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 1.6rem; color: var(--fg); text-decoration: none; letter-spacing: -0.02em; }
+.logo span { color: var(--accent); }
+h1 { font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1.2; margin: 1.5rem 0 0.25rem; text-wrap: balance; }
+h2 { font-size: 1.1rem; margin: 2rem 0 0.5rem; }
+p, ul { margin: 0 0 0.75rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.35rem; }
+a { color: var(--accent); }
+.version { color: var(--muted); font-size: 0.9rem; margin: 0; }
+.links { list-style: none; padding: 0; margin: 1.5rem 0; border-top: 1px solid var(--line); }
+.links li { margin: 0; border-bottom: 1px solid var(--line); }
+.links a { display: block; padding: 0.9rem 0; text-decoration: none; color: var(--fg); font-weight: 600; }
+.links a::after { content: "›"; float: right; color: var(--muted); }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<a class="logo" href="../">n<span>i</span>amty</a>
+<h1>Borrar tu cuenta</h1>
+<p class="version">Versión del 26 de noviembre de 2026.</p>
+<section>
+<h2>Desde la app</h2>
+<p>En Niamty, ve a Perfil → Ajustes (rueda arriba a la derecha) → Borrar mi cuenta, y confírmalo. Se borra al momento.</p>
+</section>
+<section>
+<h2>Sin la app</h2>
+<p>Si ya no tienes la app, escribe a <a href="mailto:niamty.app@gmail.com">niamty.app@gmail.com</a> desde el correo con el que creaste la cuenta, con el asunto «Borrar mi cuenta». La borraremos y te lo confirmaremos en un plazo máximo de un mes (normalmente, en pocos días).</p>
+</section>
+<section>
+<h2>Qué se borra</h2>
+<p>Se borrarán tu perfil, tus reseñas y fotos, tus likes, tus seguidores y seguidos, tu lista «Quiero ir», tu Top 3 y tus insignias. Los mensajes que hayas enviado seguirán en los chats de las otras personas, como «Cuenta eliminada».</p>
+</section>
+<section>
+<h2>Qué se conserva y cuánto tiempo</h2>
+<ul><li>Mientras tengas cuenta.</li><li>Si la borras desde Ajustes se eliminan tu perfil y todo tu contenido. Solo se conservan los mensajes privados que enviaste, en los chats de quienes los recibieron, sin tu nombre ni tu foto («Cuenta eliminada»).</li><li>Copias de seguridad: tus datos pueden seguir en ellas hasta 90 días después de borrarlos, cifrados y solo para recuperar el servicio si hubiera un problema grave.</li><li>Informes de errores: 30 días.</li><li>Estadísticas de uso: hasta 1 año. Si las desactivas, dejan de enviarse; si borras tu cuenta o nos lo pides, borramos también las ya enviadas.</li><li>Denuncias: 1 año desde que se resuelven, para poder demostrar que actuamos si hubiera una reclamación.</li><li>Registros técnicos: Supabase guarda el registro de cada conexión durante 1 día, para detectar ataques.</li></ul>
+</section>
+<footer>
+<p><a href="../">Todas las páginas</a></p>
+<p>Contacto: <a href="mailto:niamty.app@gmail.com">niamty.app@gmail.com</a></p>
+</footer>
+</main>
+</body>
+</html>

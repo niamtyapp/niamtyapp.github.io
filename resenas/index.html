@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cómo funcionan las reseñas · Niamty</title>
+<meta name="description" content="Niamty: Cómo funcionan las reseñas.">
+<style>
+:root { --bg: #FBF8F3; --fg: #1F1A14; --muted: #6B6258; --line: #E7DFD3; --accent: #A36A00; color-scheme: light; }
+@media (prefers-color-scheme: dark) { :root { --bg: #15120E; --fg: #F2ECE4; --muted: #A99F93; --line: #2E2820; --accent: #E0A53C; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+main { max-width: 42rem; margin: 0 auto; padding: 2rem max(16px, env(safe-area-inset-right)) 4rem max(16px, env(safe-area-inset-left)); }
+.logo { font-family: Georgia, "Times New Roman", serif; font-weight: 700; font-size: 1.6rem; color: var(--fg); text-decoration: none; letter-spacing: -0.02em; }
+.logo span { color: var(--accent); }
+h1 { font-family: Georgia, "Times New Roman", serif; font-size: 2rem; line-height: 1.2; margin: 1.5rem 0 0.25rem; text-wrap: balance; }
+h2 { font-size: 1.1rem; margin: 2rem 0 0.5rem; }
+p, ul { margin: 0 0 0.75rem; }
+ul { padding-left: 1.25rem; }
+li { margin-bottom: 0.35rem; }
+a { color: var(--accent); }
+.version { color: var(--muted); font-size: 0.9rem; margin: 0; }
+.links { list-style: none; padding: 0; margin: 1.5rem 0; border-top: 1px solid var(--line); }
+.links li { margin: 0; border-bottom: 1px solid var(--line); }
+.links a { display: block; padding: 0.9rem 0; text-decoration: none; color: var(--fg); font-weight: 600; }
+.links a::after { content: "›"; float: right; color: var(--muted); }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+<a class="logo" href="../">n<span>i</span>amty</a>
+<h1>Cómo funcionan las reseñas</h1>
+<p class="version">Versión del 26 de noviembre de 2026.</p>
+<section>
+<h2>Quién puede publicar</h2>
+<p>Cualquier persona registrada en Niamty. Cada reseña es de una visita: si vuelves a un sitio, puedes publicar una nueva.</p>
+</section>
+<section>
+<h2>¿Verificamos que el autor ha estado en el local?</h2>
+<p>Todavía no. En esta versión de pruebas Niamty no comprueba que las reseñas procedan de personas que hayan visitado o consumido en el local. Tenemos previsto verificarlo más adelante con la foto del ticket.</p>
+</section>
+<section>
+<h2>Cómo se calcula la nota</h2>
+<p>La media de un local cuenta solo la reseña más reciente de cada persona, para que quien va mucho no pese más que el resto. Junto a la media se muestra siempre cuántas personas lo han valorado. La media «de amigos» cuenta solo a la gente que sigues.</p>
+</section>
+<section>
+<h2>Qué reseñas ves primero</h2>
+<p>En «Seguidos», las de la gente que sigues, de la más reciente a la más antigua. En «Recomendaciones», reseñas de los últimos 60 días de gente que no sigues, ordenadas según lo recientes que son, la cercanía del local, si las siguen personas que tú sigues y sus «me gusta», con una etiqueta que explica el motivo. En «Destacados», los locales con mejor media (con un mínimo de 3 personas que los han valorado) y los más reseñados en los últimos 30 días. El top 3 de la pantalla de bienvenida son las tres reseñas con más «me gusta» hasta el lunes anterior.</p>
+</section>
+<section>
+<h2>Qué no hacemos</h2>
+<p>No aceptamos pagos por reseñas ni por aparecer en Destacados, no ocultamos las reseñas negativas y los locales no pueden cambiar su nota. Las reseñas solo se retiran si incumplen las normas de la comunidad o la ley, después de una denuncia.</p>
+</section>
+<section>
+<h2>Sin contenido patrocinado</h2>
+<p>Durante la versión de pruebas no hay publicidad, locales patrocinados ni reseñas con ventajas. Si algún día los hay, estarán siempre marcados de forma visible.</p>
+</section>
+<footer>
+<p><a href="../">Todas las páginas</a></p>
+<p>Contacto: <a href="mailto:niamty.app@gmail.com">niamty.app@gmail.com</a></p>
+</footer>
+</main>
+</body>
+</html>
